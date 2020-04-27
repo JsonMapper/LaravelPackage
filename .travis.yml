@@ -1,0 +1,35 @@
+language: php
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+matrix:
+  include:
+    # Latest dependencies with all PHP versions
+    - php: 7.2
+    - php: 7.3
+    - php: 7.4
+
+      # Ignore the platform requirements for the upcoming PHP version
+    - php: nightly
+      env: COMPOSER_FLAGS='--ignore-platform-reqs'
+  allow_failures:
+    - php: nightly
+  fast_finish: true
+
+install:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --dev --no-interaction $COMPOSER_FLAGS
+
+script:
+  - mkdir -p build/logs;
+  - composer unit-tests
+  - composer integration-tests
+
+after_success:
+  - travis_retry php vendor/bin/php-coveralls
+
+notifications:
+  email:
+    - danny.vandersluijs@icloud.com

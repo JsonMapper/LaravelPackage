@@ -27,10 +27,10 @@
         }
     },
     "scripts": {
-        "phpcs": ["./vendor/bin/phpcs --standard=PSR12 src tests"],
-        "phpcbf": ["./vendor/bin/phpcbf --standard=PSR12 src tests"],
-        "phpstan": "./vendor/bin/phpstan analyse",
-        "unit-tests": "./vendor/bin/phpunit --testsuite unit --testdox --coverage-clover=build/logs/clover-unit-tests.xml"
+        "phpcs": "phpcs --standard=PSR12 src tests",
+        "phpcbf": "phpcbf --standard=PSR12 src tests",
+        "phpstan": "phpstan analyse",
+        "unit-tests": "phpunit --testsuite unit --testdox --coverage-clover=build/logs/clover-unit-tests.xml"
     },
     "extra": {
         "laravel": {

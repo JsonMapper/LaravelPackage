@@ -20,8 +20,8 @@ class ServiceProvider extends BaseServiceProvider
     {
         $this->mergeConfigFrom(self::CONFIG_FILE, 'json-mapper');
 
-        $config = config('json-mapper.type');
-        $this->app->singleton(JsonMapperInterface::class, static function () use ($config) {
+        $this->app->singleton(JsonMapperInterface::class, function ($app) {
+            $config = $app->get('config')->get('json-mapper.type');
             switch ($config) {
                 case 'best-fit':
                     return (new JsonMapperFactory())->bestFit();

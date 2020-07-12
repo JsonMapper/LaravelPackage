@@ -6,6 +6,7 @@ namespace JsonMapper\LaravelPackage\Tests\Unit;
 
 use Illuminate\Config\Repository;
 use JsonMapper\JsonMapper;
+use JsonMapper\JsonMapperInterface;
 use JsonMapper\LaravelPackage\ServiceProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -37,6 +38,9 @@ class ServiceProviderTest extends TestCase
 
 
         $serviceProvider->register();
+
+        self::assertTrue($app->has(JsonMapperInterface::class));
+        self::assertInstanceOf(JsonMapperInterface::class, $app->make(JsonMapperInterface::class));
 
         self::assertTrue($app->has(JsonMapper::class));
         self::assertInstanceOf(JsonMapper::class, $app->make(JsonMapper::class));

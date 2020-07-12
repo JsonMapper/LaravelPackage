@@ -7,6 +7,7 @@ namespace JsonMapper\LaravelPackage;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use JsonMapper\JsonMapper;
 use JsonMapper\JsonMapperFactory;
+use JsonMapper\JsonMapperInterface;
 
 class ServiceProvider extends BaseServiceProvider
 {
@@ -19,19 +20,18 @@ class ServiceProvider extends BaseServiceProvider
     {
         $this->mergeConfigFrom(self::CONFIG_FILE, 'json-mapper');
 
-        switch (config('json-mapper.type')) {
-            case 'best-fit':
-                $this->app->singleton(JsonMapper::class, function () {
+        $config = config('json-mapper.type');
+        $this->app->singleton(JsonMapperInterface::class, static function () use ($config) {
+            switch ($config) {
+                case 'best-fit':
                     return (new JsonMapperFactory())->bestFit();
-                });
-                break;
-            case 'default':
-            default:
-                $this->app->singleton(JsonMapper::class, function () {
+                case 'default':
+                default:
                     return (new JsonMapperFactory())->default();
-                });
-                break;
-        }
+            }
+        });
+
+        $this->app->alias(JsonMapperInterface::class, JsonMapper::class);
     }
 
     /**

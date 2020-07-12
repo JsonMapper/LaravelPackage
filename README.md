@@ -1,9 +1,10 @@
-![Logo](https://jsonmapper.github.io/JsonMapper/images/jsonmapper.png)
+![Logo](https://jsonmapper.net/images/jsonmapper.png)
+
 ---
 **This is a Laravel package for using JsonMapper in you Laravel application.** 
 
 JsonMapper is a PHP library that allows you to map a JSON response to your PHP objects that are either annotated using doc blocks or use typed properties.
-For more information see the project website: https://jsonmapper.github.io/JsonMapper/
+For more information see the project website: https://jsonmapper.net
 
 ![GitHub](https://img.shields.io/github/license/JsonMapper/LaravelPackage)
 ![Packagist Version](https://img.shields.io/packagist/v/json-mapper/laravel-package)

@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.3] - 2020-09-14
+### Added
+- Add support for Laravel 8
+
 ## [1.1.2] - 2020-07-12
 ### Fixed
 - Late config binding added for runtime override

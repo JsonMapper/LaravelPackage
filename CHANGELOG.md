@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2021-01-07
+### Changed
+- Update to version ^2.0 JsonMapper
+
 ## [1.1.3] - 2020-09-14
 ### Added
 - Add support for Laravel 8

@@ -9,7 +9,7 @@ For more information see the project website: https://jsonmapper.net
 ![GitHub](https://img.shields.io/github/license/JsonMapper/LaravelPackage)
 ![Packagist Version](https://img.shields.io/packagist/v/json-mapper/laravel-package)
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/json-mapper/laravel-package)
-[![Build Status](https://api.travis-ci.com/JsonMapper/LaravelPackage.svg?branch=master)](https://travis-ci.com/JsonMapper/LaravelPackage) 
+![Build](https://github.com/JsonMapper/LaravelPackage/workflows/Build/badge.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/JsonMapper/LaravelPackage/badge.svg?branch=master)](https://coveralls.io/github/JsonMapper/LaravelPackage?branch=master)
 
 # Why use JsonMapper

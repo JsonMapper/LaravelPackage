@@ -99,5 +99,5 @@ jobs:
         run: |
           curl --header "Content-Type: application/json" \
             --request POST \
-            --data '{"repo_token":"${{ secrets.GITHUB_TOKEN }}","repo_name":JsonMapper/LaravelPackage", "payload": {"build_num": "${{ github.sha }}", "status": "done"}}' \
+            --data '{"repo_token":"${{ secrets.GITHUB_TOKEN }}","repo_name":"JsonMapper/LaravelPackage", "payload": {"build_num": "${{ github.sha }}", "status": "done"}}' \
             https://coveralls.io/webhook

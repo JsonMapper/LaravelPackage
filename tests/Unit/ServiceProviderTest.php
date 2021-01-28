@@ -28,14 +28,15 @@ class ServiceProviderTest extends TestCase
     }
 
     /**
-     * @covers \JsonMapper\LaravelPackage\ServiceProvider
+     * @covers       \JsonMapper\LaravelPackage\ServiceProvider
+     * @dataProvider configOptionsDataProvider
+     * @param string|null $type
      */
-    public function testRegisterMakesJsonMapperAvailableInApp(): void
+    public function testRegisterMakesJsonMapperAvailableInApp($type): void
     {
         $app = new \Illuminate\Foundation\Application();
-        $app->offsetSet('config', new Repository());
+        $app->offsetSet('config', new Repository(['json-mapper.type' => $type]));
         $serviceProvider = new ServiceProvider($app);
-
 
         $serviceProvider->register();
 
@@ -44,5 +45,14 @@ class ServiceProviderTest extends TestCase
 
         self::assertTrue($app->has(JsonMapper::class));
         self::assertInstanceOf(JsonMapper::class, $app->make(JsonMapper::class));
+    }
+
+    public function configOptionsDataProvider(): array
+    {
+        return [
+            'default' => ['default'],
+            'best-fit' => ['best-fit'],
+            'unspecified' => [null],
+        ];
     }
 }

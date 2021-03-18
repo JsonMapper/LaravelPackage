@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2021-03-18
+### Added
+- Utilise the new builder factory; Add mapToCollection methods [PR#13](https://github.com/JsonMapper/LaravelPackage/pull/13)
+
 ## [2.1.0] - 2021-01-28
 ### Changed
 - Migrate to GitHub actions [PR#12](https://github.com/JsonMapper/LaravelPackage/pull/12)

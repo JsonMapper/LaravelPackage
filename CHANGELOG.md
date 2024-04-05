@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.0] - 2024-04-05 
+### Added
+- Support Laravel 11 [PR#21](https://github.com/JsonMapper/LaravelPackage/pull/21). Thanks to [laravel-shift](https://github.com/laravel-shift) for creating the PR.
+
 ## [2.4.0] - 2023-04-04
 ### Added
 - Support Laravel 10 [PR#19](https://github.com/JsonMapper/LaravelPackage/pull/19). Thanks to [Sunil Bhatia](https://github.com/sunil19822701) for creating the PR.

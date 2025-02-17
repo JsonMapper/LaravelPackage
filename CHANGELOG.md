@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [2.6.0] - 2025-02-17
 ### Added
 - Support Laravel 12 [PR#23](https://github.com/JsonMapper/LaravelPackage/pull/23). Thanks to [laravel-shift](https://github.com/laravel-shift) for creating the PR.
 - Extend workflow matrix to include PHP 8.2, 8.3 and 8.4 [PR#24](https://github.com/JsonMapper/LaravelPackage/pull/24)

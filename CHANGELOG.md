@@ -6,8 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
-- Dropped support for PHP 7.2 and 7.3. Minimum supported PHP version is now 7.4.
-- Dropped support for Laravel 5.5 through 10. Minimum supported Laravel version is now 11.
+- Dropped support for PHP 7.2 and 7.3 and Laravel 5.5 through 10. Minimum supported PHP version is now 7.4 and minimum supported Laravel version is now 11.
 
 ## [2.6.0] - 2025-02-17
 ### Added

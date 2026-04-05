@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Add workflow to handle Copilot agent startup [PR#34](https://github.com/JsonMapper/LaravelPackage/pull/34)
+### Fixed 
+- Restore support for Laravel 8,9 and 10 [PR#37](https://github.com/JsonMapper/LaravelPackage/pull/37)
 ### Changed
 - Dropped support for PHP 7.2 and 7.3 and Laravel 5.5 through 10. Minimum supported PHP version is now 7.4 and minimum supported Laravel version is now 11.
 

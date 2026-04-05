@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Add workflow to handle Copilot agent startup [PR#34](https://github.com/JsonMapper/LaravelPackage/pull/34)
+- Add workflows for changelog and release automation [PR#36](https://github.com/JsonMapper/LaravelPackage/pull/36)
 ### Fixed 
 - Restore support for Laravel 8,9 and 10 [PR#37](https://github.com/JsonMapper/LaravelPackage/pull/37)
 ### Changed

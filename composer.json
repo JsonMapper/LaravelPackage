@@ -47,5 +47,19 @@
         "orchestra/testbench": "^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0",
         "php-coveralls/php-coveralls": "^2.4",
         "guzzlehttp/guzzle": "^6.5 || ^7.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "audit": {
+            "ignore": {
+                "PKSA-8qx3-n5y5-vvnd": "Using Laravel as transient dependency of orchestra/testbench",
+                "PKSA-w7xr-vk7n-rstm": "Using Laravel as transient dependency of orchestra/testbench",
+                "PKSA-p3rx-dfwp-73ny": "Using Laravel as transient dependency of orchestra/testbench",
+                "PKSA-ckwp-rt7t-c46m": "Using Laravel as transient dependency of orchestra/testbench",
+                "PKSA-4npr-btr6-zhny": "Using Laravel as transient dependency of orchestra/testbench",
+                "PKSA-njrm-6dtg-m2pc": "Using Laravel as transient dependency of orchestra/testbench",
+                "PKSA-985r-hryy-555b": "Using Laravel as transient dependency of orchestra/testbench"
+            }
+        }
     }
 }

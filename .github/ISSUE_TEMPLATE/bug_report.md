@@ -11,7 +11,7 @@ A clear and concise description of what the bug is.
 Steps to reproduce the behavior:
 1. When calling '...'
 2. At the JSON contains '....'
-3. Add Im using the following middleware '....'
+3. Add I'm using the following middleware '....'
 4. See error
 
 **Expected behavior**

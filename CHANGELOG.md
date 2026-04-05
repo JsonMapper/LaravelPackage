@@ -6,16 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- Add support for Laravel 13 ([#39](https://github.com/JsonMapper/LaravelPackage/pull/39))
 - Add workflow to handle Copilot agent startup [PR#34](https://github.com/JsonMapper/LaravelPackage/pull/34)
 - Add workflows for changelog and release automation [PR#36](https://github.com/JsonMapper/LaravelPackage/pull/36)
+- 
 ### Fixed 
 - Restore support for Laravel 8,9 and 10 [PR#37](https://github.com/JsonMapper/LaravelPackage/pull/37)
+- ci: Update actions/checkout from v2 to v6 in build.yaml ([#38](https://github.com/JsonMapper/LaravelPackage/pull/38))
+
 ### Changed
 - Dropped support for PHP 7.2 and 7.3 and Laravel 5.5 through 10. Minimum supported PHP version is now 7.4 and minimum supported Laravel version is now 11.
 - Generally clean up of the repo from develop and master branch references, as well as some generic corrections [PR#35](https://github.com/JsonMapper/LaravelPackage/pull/35)
-
-### Fixed
-- ci: Update actions/checkout from v2 to v6 in build.yaml ([#38](https://github.com/JsonMapper/LaravelPackage/pull/38))
 
 ## [2.6.0] - 2025-02-17
 ### Added

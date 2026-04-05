@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Restore support for Laravel 8,9 and 10 [PR#37](https://github.com/JsonMapper/LaravelPackage/pull/37)
 ### Changed
 - Dropped support for PHP 7.2 and 7.3 and Laravel 5.5 through 10. Minimum supported PHP version is now 7.4 and minimum supported Laravel version is now 11.
+- Generally clean up of the repo from develop and master branch references, as well as some generic corrections [PR#35](https://github.com/JsonMapper/LaravelPackage/pull/35)
 
 ## [2.6.0] - 2025-02-17
 ### Added

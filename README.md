@@ -12,8 +12,8 @@ For more information see the project website: https://jsonmapper.net
 ![GitHub](https://img.shields.io/github/license/JsonMapper/LaravelPackage)
 ![Packagist Version](https://img.shields.io/packagist/v/json-mapper/laravel-package)
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/json-mapper/laravel-package)
-![Build](https://github.com/JsonMapper/LaravelPackage/workflows/Build/badge.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/JsonMapper/LaravelPackage/badge.svg?branch=master)](https://coveralls.io/github/JsonMapper/LaravelPackage?branch=master)
+![Build](https://github.com/JsonMapper/LaravelPackage/workflows/Build/badge.svg?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/JsonMapper/LaravelPackage/badge.svg?branch=main)](https://coveralls.io/github/JsonMapper/LaravelPackage?branch=main)
 
 # Why use JsonMapper
 Continuously mapping your JSON responses to your own objects becomes tedious and is error prone. Not mentioning the
@@ -38,10 +38,10 @@ $ composer require json-mapper/laravel-package
 The example shown above assumes that `composer` is on your `$PATH`.
 
 # Contributing
-Please refer to [CONTRIBUTING.md](https://github.com/JsonMapper/LaravelPackage/blob/master/CONTRIBUTING.md) for information on how to contribute to JsonMapper Laravel package.
+Please refer to [CONTRIBUTING.md](https://github.com/JsonMapper/LaravelPackage/blob/main/CONTRIBUTING.md) for information on how to contribute to JsonMapper Laravel package.
 
 ## List of Contributors
-Thanks to everyone who has contributed to JsonMapper Laravel package! You can find a detailed list of contributors of JsonMapper on [GitHub](https://github.com/JsonMapper/LaravelPackage/graphs/contributors).
+Thanks to everyone who has contributed to JsonMapper Laravel package! You can find a detailed list of people who contributed to JsonMapper on [GitHub](https://github.com/JsonMapper/LaravelPackage/graphs/contributors).
 
 # License
-The MIT License (MIT). Please see [License File](https://github.com/JsonMapper/LaravelPackage/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/JsonMapper/LaravelPackage/blob/main/LICENSE) for more information.
